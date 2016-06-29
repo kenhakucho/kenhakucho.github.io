@@ -91,9 +91,13 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-alias (0.0.1)
+      binding_of_caller
+      pry
     pry-byebug (3.4.0)
       byebug (~> 9.0)
       pry (~> 0.10)
+    puma (3.4.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -181,7 +185,9 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   pg
+  pry-alias
   pry-byebug
+  puma
   rails (= 4.2.6)
   rails_12factor
   rest-client (>= 1.8.0)

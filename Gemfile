@@ -6,6 +6,7 @@ gem 'rails', '4.2.6'
 
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
+gem 'puma'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -34,6 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'pry-byebug', group: :development
+gem 'pry-alias'
+
 gem 'dotenv-rails'
 gem 'rest-client', '>= 1.8.0'
 
